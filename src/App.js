@@ -18,7 +18,7 @@ function App() {
         if (data.temperature !== undefined) {
           setTemperature(data.temperature);
           setHumidity(data.humidity);
-          setMessage(""); // Clear error if data is valid
+          setMessage("");  
         } else {
           setMessage("No data found");
         }
