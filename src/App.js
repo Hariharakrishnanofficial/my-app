@@ -7,7 +7,7 @@ function App() {
   const [temperature, setTemperature] = useState("--");
   const [humidity, setHumidity] = useState("--");
   const [message, setMessage] = useState("");
-
+  
   useEffect(() => {
     const fetchSensorData = async () => {
       try {
